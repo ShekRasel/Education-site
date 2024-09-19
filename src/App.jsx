@@ -4,6 +4,7 @@ import Hero from './Components/Hero'
 import LearnSkill from './Components/LearnSkill'
 import Course from './Components/Course'
 import OnlineLearn from './Components/OnlineLearn'
+import Catagories from './Components/Catagories'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <LearnSkill/>
         <Course/>
         <OnlineLearn/>
+        <Catagories/>
     </div>
   )
 }
