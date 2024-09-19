@@ -16,7 +16,7 @@ function OnlineLearn() {
         </div>
 
         <div className='lg:w-1/2 mt-10 md:mt-20 lg:mt-0'>
-            <img src="/public/images/welcome-img.png" alt="" />
+            <img src="images/welcome-img.png" alt="" />
         </div>
     </div>
   )

@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import LearnSkill from './Components/LearnSkill'
 import Course from './Components/Course'
+import OnlineLearn from './Components/OnlineLearn'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Hero/>
         <LearnSkill/>
         <Course/>
+        <OnlineLearn/>
     </div>
   )
 }
