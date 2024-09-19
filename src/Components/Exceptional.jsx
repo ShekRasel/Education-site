@@ -120,7 +120,7 @@ function Exceptional() {
             width="80%"
             height="auto"
             className={`rounded-lg shadow-lg transform transition-transform duration-300 ${modalActive ? 'scale-100' : 'scale-75'}`} // Zoom-in effect
-            src="/public/video/istockphoto-1197800870-640_adpp_is.mp4" // Replace with your video file path
+            src="/src/assets/video/istockphoto-1197800870-640_adpp_is.mp4" // Replace with your video file path
           >
             Your browser does not support the video tag.
           </video>
