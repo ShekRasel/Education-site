@@ -6,6 +6,7 @@ import Course from './Components/Course'
 import OnlineLearn from './Components/OnlineLearn'
 import Catagories from './Components/Catagories'
 import Exceptional from './Components/Exceptional'
+import Instructor from './Components/Instructor'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <OnlineLearn/>
         <Catagories/>
         <Exceptional/>
+        <Instructor/>
     </div>
   )
 }
