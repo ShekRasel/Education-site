@@ -26,7 +26,7 @@ function LearnSkill() {
 
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 text-center'>
             {SkillSet.map((skill,index)=>(
-                <div className='border bg-gray-50 rounded-md px-3 py-10 shadow-xl hover:shadow-2xl transition-all ease-in-out delay-300' key={index}>
+                <div className='border bg-gray-50 rounded-md px-3 py-10 shadow-xl hover:shadow-2xl transition-all ease-out duration-500' key={index}>
                     <span className='flex justify-center'>{skill.icon}</span>
                     <h1 className='text-2xl font-semibold mt-5'>{skill.header}</h1>
                     <p className='font-semibold mt-5'>{skill.description}</p>
