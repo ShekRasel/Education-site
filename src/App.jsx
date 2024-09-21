@@ -8,6 +8,7 @@ import Catagories from './Components/Catagories'
 import Exceptional from './Components/Exceptional'
 import Instructor from './Components/Instructor'
 import StudentsSpeach from './Components/StudentsSpeach';
+import Blog from './Components/Blog'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Exceptional/>
         <Instructor/>
         <StudentsSpeach/>
+        <Blog/>
     </div>
   )
 }
