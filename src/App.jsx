@@ -7,6 +7,7 @@ import OnlineLearn from './Components/OnlineLearn'
 import Catagories from './Components/Catagories'
 import Exceptional from './Components/Exceptional'
 import Instructor from './Components/Instructor'
+import StudentsSpeach from './Components/StudentsSpeach';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Catagories/>
         <Exceptional/>
         <Instructor/>
+        <StudentsSpeach/>
     </div>
   )
 }
