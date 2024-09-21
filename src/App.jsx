@@ -9,6 +9,7 @@ import Exceptional from './Components/Exceptional'
 import Instructor from './Components/Instructor'
 import StudentsSpeach from './Components/StudentsSpeach';
 import Blog from './Components/Blog'
+import Contact from './Components/Contact'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Instructor/>
         <StudentsSpeach/>
         <Blog/>
+        <Contact/>
     </div>
   )
 }
