@@ -10,6 +10,7 @@ import Instructor from './Components/Instructor'
 import StudentsSpeach from './Components/StudentsSpeach';
 import Blog from './Components/Blog'
 import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <StudentsSpeach/>
         <Blog/>
         <Contact/>
+        <Footer/>
     </div>
   )
 }
