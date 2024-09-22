@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className='lg:flex border-blue-700  h-[800px]  bg-slate-800'>
+    <div className='lg:flex border-blue-700  h-[800px]  bg-slate-800' id='home'>
         <div className='w-1/2 hidden xl:block'>
           <img src="images/hero-img.png" alt="" className='= w-full h-full object-cover'/>
         </div>

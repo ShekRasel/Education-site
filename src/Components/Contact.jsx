@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className='px-4 sm:px-6 md:px-12 xl:px-16 2xl:px-80 mt-16 md:mt-44 lg:flex gap-20'>
+    <div className='px-4 sm:px-6 md:px-12 xl:px-16 2xl:px-80 mt-16 md:mt-44 lg:flex gap-20' id='contact'>
         <div className=' md:w-3/5'>
             <h1 className='text-3xl md:text-5xl font-semibold mt-6'>Get In Touch</h1>
             <p className='font-semibold text-gray-500 mt-12'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, consequatur quisquam necessitatibus obcaecati enim harum amet.</p>

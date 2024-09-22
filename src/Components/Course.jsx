@@ -51,7 +51,7 @@ function Course() {
         
     ];
   return (
-    <div className=' px-4 sm:px-6 md:px-12 xl:px-16 2xl:px-80 mt-16 md:mt-44'>
+    <div className=' px-4 sm:px-6 md:px-12 xl:px-16 2xl:px-80 mt-16 md:mt-44' id='course'>
         <h1 className='text-center text-3xl md:text-5xl font-semibold'>Popular Courses</h1>
         <p className='mt-8 text-center text-lg font-semibold lg:px-64  text-gray-600'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, pariatur. Nesciunt obcaecati voluptatem ipsa eveniet.</p>
 

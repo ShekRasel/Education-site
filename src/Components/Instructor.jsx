@@ -7,9 +7,9 @@ function Instructor() {
     const[isOpen, setIsOpen]= useState(null);
     const instractors = [
         {photo:'images/instructor11.jpg', name: 'Jesika Parnendaj',designation: 'Expert Designer'},
-        {photo: 'images/instructor2.jpg', name: 'Jesika Parnendaj',designation: 'Expert Designer'},
-        {photo: 'images/instructor5.avif', name: 'Jesika Parnendaj',designation: 'Expert Designer'},
-        {photo: 'images/instructor6.avif', name: 'Jesika Parnendaj',designation: 'Expert Designer'}
+        {photo: 'images/instructor2.jpg', name: 'Jesika Parnendaj',designation: 'Backend Developer'},
+        {photo: 'images/instructor5.avif', name: 'Jesika Parnendaj',designation: 'Expert Problem Solver'},
+        {photo: 'images/instructor6.avif', name: 'Jesika Parnendaj',designation: 'Data Analysist'}
     ]
 
     const openSlider = (index)=>{
@@ -20,8 +20,8 @@ function Instructor() {
         setIsOpen(null);
     }
   return (
-    <div className='px-6 md:px-12 xl:px-16 2xl:px-80 mt-14 md:mt-32 2xl:mt-44'>
-        <h1 className='text-3x md:text-5xl font-semibold text-center'>Our Expert Instructors</h1>
+    <div className='px-6 md:px-12 xl:px-16 2xl:px-80 mt-14 md:mt-32 2xl:mt-44' id='mentor'>
+        <h1 className='text-3xl md:text-5xl font-semibold text-center'>Our Expert Instructors</h1>
         <p className='text-lg text-gray-400 mt-8 text-center md:px-16'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum eaque at saepe iusto, ducimus aperiam.</p>
 
         <div className='grid md:grid-cols-3 xl:grid-cols-4 gap-8 mt-10'>
