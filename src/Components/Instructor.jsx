@@ -27,7 +27,7 @@ function Instructor() {
         <div className='grid md:grid-cols-3 xl:grid-cols-4 gap-8 mt-10'>
             {instractors.map((instractor,index)=>(
                 <div
-                className='' 
+                className='shadow-md rounded-md' 
                 key={index}
                 onMouseEnter={()=>{openSlider(index)}}
                 onMouseLeave={closeSlider}
@@ -41,9 +41,9 @@ function Instructor() {
                         </div>    
                     </div>
 
-                    <div className=' relative border'>
+                    <div className=' relative pb-8'>
                         <h1 className='text-2xl mt-6 font-semibold text-center'>{instractor.name}</h1>
-                        <h1 className='text-lg text-gray-400 text-center'>{instractor.designation}</h1>
+                        <h1 className='text-lg text-gray-400 text-center font-semibold mt-3'>{instractor.designation}</h1>
                     </div>
                 </div>
             ))}
