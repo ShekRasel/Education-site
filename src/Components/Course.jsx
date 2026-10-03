@@ -1,4 +1,3 @@
-import React from 'react'
 import { IoMdPeople } from "react-icons/io";
 import { MdRemoveRedEye } from "react-icons/md";
 import { IoIosStarOutline } from "react-icons/io";

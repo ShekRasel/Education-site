@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { TbArrowsMinimize } from "react-icons/tb";
 import { IoPeople } from "react-icons/io5";
 import { TbMessageQuestion } from "react-icons/tb";

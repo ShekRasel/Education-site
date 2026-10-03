@@ -1,4 +1,3 @@
-import React from 'react'
 import { IoColorPaletteSharp } from "react-icons/io5";
 import { SiMarketo } from "react-icons/si";
 import { FaCamera } from "react-icons/fa";
